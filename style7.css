@@ -8,3 +8,60 @@
     color: white;
     border-color: chocolate;
 }
+footer {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.first-line {
+    border-bottom: 1px solid #392d23;
+}
+.second-line a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:48rem) {
+  .first-line {
+    text-align: center;
+  }  
+} 
+@media screen and (max-width:48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+.third-line {
+    display: none;
+}
+.mobile-footer {
+    border-top: 1px solid #392d23;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    display: none;
+}
+.flag {
+    display: block;
+}
+@media screen and (max-width:48rem) {
+    .third-line {
+        display: block;
+    }
+    .mobile-footer {
+        display: block;
+    }
+    .flag {
+        display: none;
+    }
+    
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
